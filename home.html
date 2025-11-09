@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            height: 100%;
+        }
+
+        body {
+            background-color: transparent;
+            background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJpdHJjYmtkeTdtYjVla2VqYWV1MWw3YmM1N3d2bmx4N3MwMzZhNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UYBDCJjwOd9Re/giphy.gif");
+            background-attachment: fixed;
+
+
+
+        }
+
+        .home {
+            height: 78vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            color: aliceblue;
+            width: 100%;
+            padding: 30px;
+
+            position: sticky;
+            top: 0;
+            background: transparent;
+            backdrop-filter: blur(1px);
+            -webkit-backdrop-filter: blur(px);
+            display: flex;
+            justify-content: center;
+            gap: 10vw;
+            transition: 0.3s;
+        }
+
+        nav:hover {
+            color: transparent;
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-shadow: 0 0 10px #050505
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-shadow: 0 0 3px #ffffff
+        }
+
+        main {
+            height: 100vh;
+            width: 100%;
+
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+        }
+
+        main div p {
+            color: #ffffff;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .hero {
+            text-align: center;
+            z-index: 1;
+
+
+
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 0.5;
+        }
+
+        .hero h1 span {
+            font-family: "Playfair Display", serif;
+            font-style: italic;
+            transition: 0.7s;
+        }
+
+        .hero h1 span:hover {
+            text-shadow: 10px white;
+            color: rgb(63, 108, 241);
+            font-size: larger;
+        }
+
+        .hero p {
+            color: #c4bfbf;
+            line-height: 0.3;
+
+        }
+
+        .moon {
+            background-color: #ffffff;
+
+        }
+
+        .moonshell {
+            width: 116vw;
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -625px;
+            box-shadow: inset 1px 3px 60px rgb(255, 255, 255);
+            transition: all 0.9s ease;
+
+
+        }
+
+        .moonshell:hover {
+            box-shadow: inset 16px 45px 100px rgb(82, 119, 231);
+            transform: scale(1.08);
+
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="project.html">PROJECT</a>
+        <a href="skill.html">SKILL</a>
+    </nav>
+
+
+    <main>
+        <div class="home">
+            <div class="hero">
+                <h1>Hey, <span>I’m Yash</span></h1>
+                <p>Computer Science Undergraduate</p>
+                <p>And</p>
+                <P>Web-Development Enthusias</P>
+            </div>
+            <div class="moonshell">
+                <div class="moon"></div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </main>
+</body>
+</html>
