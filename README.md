@@ -19,5 +19,5 @@ It is built with a clean UI, modern animations, and responsive design. 🚀
 
 HTML5
 CSS3
-Git & GitHub
+Git Github 
 VS Code
